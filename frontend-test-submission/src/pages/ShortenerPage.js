@@ -5,7 +5,7 @@ import {
 } from '@mui/material';
 import AddCircleOutlineIcon from '@mui/icons-material/AddCircleOutline';
 import RemoveCircleOutlineIcon from '@mui/icons-material/RemoveCircleOutline';
-import { urlService } from '../services/urlService';
+import { urlService } from '../urlService';
 import { Log } from 'logging-middleware';
 
 // A unique ID generator for our input rows
