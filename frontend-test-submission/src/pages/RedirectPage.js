@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { Typography, Box, CircularProgress } from '@mui/material';
-import { urlService } from '../services/urlService';
+import { urlService } from '../urlService';
 import { Log } from 'logging-middleware';
 
 const RedirectPage = () => {
