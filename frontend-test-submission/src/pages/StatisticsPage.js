@@ -4,7 +4,7 @@ import {
   Typography, Box, Paper, Table, TableBody, TableCell,
   TableContainer, TableHead, TableRow
 } from '@mui/material';
-import { urlService } from '../services/urlService';
+import { urlService } from '../urlService';
 import { Log } from 'logging-middleware';
 
 const StatisticsPage = () => {
