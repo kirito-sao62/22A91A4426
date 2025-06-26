@@ -1,0 +1,58 @@
+# ============== #
+#  Dependencies  #
+# ============== #
+# The node_modules folder at the root level (for the setup script)
+/node_modules
+
+# Lockfiles
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+setup.js
+# ================= #
+#  Frontend Folder  #
+# ================= #
+# Ignore the node_modules and build output of the React app
+# This is crucial for keeping your repository clean.
+/frontend-test-submission/node_modules
+/frontend-test-submission/build
+/frontend-test-submission/.pnp.js
+/frontend-test-submission/.pnp.loader.mjs
+
+# ===================== #
+#  Logging Middleware   #
+# ===================== #
+# Ignore the node_modules of the logging middleware package
+/logging-middleware/node_modules
+
+# ==================================== #
+#  Operating System & Editor Specific  #
+# ==================================== #
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+Thumbs.db
+
+# Windows
+ehthumbs.db
+ehthumbs_vista.db
+
+# IDEs / Editors
+.idea/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# ================= #
+#  Log & Temp Files #
+# ================= #
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
