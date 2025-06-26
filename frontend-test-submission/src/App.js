@@ -11,7 +11,7 @@ function App() {
       <AppBar position="static">
         <Toolbar>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            AffordMed URL Shortener
+            URL Shortener
           </Typography>
           <Button color="inherit" component={Link} to="/">Shortener</Button>
           <Button color="inherit" component={Link} to="/stats">Statistics</Button>
